@@ -29,7 +29,7 @@ const Login = () => {
                 <div className="card-body">
                 <form id="submit" onSubmit={handleSubmit}>
                     <input onChange={handleChange} type="text" placeholder="usarname" className="form-control my-2" name="usarname"/>
-                    <input onChange={handleChange} type="password" placeholder="usarname" className="form-control my-2" name="password"/>
+                    <input onChange={handleChange} type="password" placeholder="password" className="form-control my-2" name="password"/>
                 </form>
                 </div>
                 <div className="card-footer">
